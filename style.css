@@ -8,6 +8,10 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
 *,
 *:before,
 *:after {
@@ -50,11 +54,17 @@ header {
     font-size: 1.5rem;
 }
 
-.btn-header {
-    padding: 11px 12px 8px;
+.btn-header button {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin-right: 0.5rem;
+    padding: 1.5rem 1.1rem;
+    background-color: rgb(50, 104, 145);
+    border: 0.1rem solid #497493;
+    border-radius: 0.2rem;
 }
 
-.btn-header button {
-    border-radius: 2px;
-    background-color: rgb(50, 104, 145);
+.btn-header button:last-child {
+    margin-right: 0;
 }
