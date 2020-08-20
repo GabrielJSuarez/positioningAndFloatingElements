@@ -43,6 +43,11 @@ h1 {
     margin: 0 auto;
 }
 
+.sub-container {
+    margin: 0 auto;
+    width: 80rem;
+}
+
 .d-flex {
     display: flex;
 }
