@@ -28,6 +28,17 @@ img {
     height: auto;
 }
 
+h1 {
+    font-family: 'Domine', serif;
+    font-size: 4.5rem;
+    font-style: italic;
+    font-weight: bold;
+    width: 60rem;
+    margin: 10rem auto 5rem;
+    padding: 0 0.5rem;
+    line-height: 1.4;
+}
+
 .d-flex {
     display: flex;
 }
@@ -63,7 +74,8 @@ header {
 }
 
 .header-logo {
-    width: 15%;
+    width: 18%;
+    padding: 1rem;
 }
 
 .btn-header button {
