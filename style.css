@@ -8,16 +8,53 @@ html {
     font-size: 62.5%;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
 *,
 *:before,
 *:after {
     box-sizing: inherit;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
 
 /* Header Style */
+
+header {
+    padding: 1rem;
+    border-bottom: 1px solid grey;
+}
+
+.header-flex {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-header i {
+    padding-right: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.left-header a {
+    font-size: 1.5rem;
+}
+
+.btn-header {
+    padding: 11px 12px 8px;
+}
+
+.btn-header button {
+    border-radius: 2px;
+    background-color: rgb(50, 104, 145);
+}
