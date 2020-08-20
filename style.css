@@ -39,6 +39,10 @@ h1 {
     line-height: 1.4;
 }
 
+.container {
+    margin: 0 auto;
+}
+
 .d-flex {
     display: flex;
 }
@@ -103,4 +107,21 @@ header {
 
 main {
     margin-top: 5rem;
+}
+
+.main-picture {
+    margin: 0 auto;
+    width: 120rem;
+}
+
+.main-picture figcaption {
+    color: #666;
+    width: 80rem;
+    padding: 1.5rem 0;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+.fig-span {
+    color: #888;
 }
