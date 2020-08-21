@@ -65,7 +65,7 @@ figcaption {
 
 .sub-container {
     margin: 0 auto;
-    width: 80rem;
+    width: 70rem;
 }
 
 .d-flex {
@@ -262,7 +262,7 @@ main {
 .editor-pick-aside {
     width: 25rem;
     position: absolute;
-    left: 125rem;
+    left: 100rem;
 }
 
 .editor-float {
