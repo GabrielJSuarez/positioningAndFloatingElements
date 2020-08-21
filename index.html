@@ -87,6 +87,34 @@
                 <hr>
             </aside>
 
+            <aside class="editor-pick-aside">
+                <h2>Editor's Picks</h2>
+
+                <hr>
+
+                <div class="editor-float editor-grid">
+                    <img src="https://static01.nyt.com/images/2020/08/06/business/06taiwan-bikes-2/merlin_174895581_ae9ec662-dc68-402a-b02c-b5df8ff01588-superJumbo.jpg?quality=90&auto=webp" alt="">
+                    <h3>
+                        Sorry, the World’s Biggest Bike Maker Can’t Help You Buy a Bike Right Now
+                    </h3>
+                </div>
+
+                <div class="editor-float editor-grid">
+                    <img src="https://static01.nyt.com/images/2020/08/19/dining/17mask1/17mask1-square640-v2.jpg?quality=75&auto=webp&disable=upscale&width=350" alt="">
+                    <h3>
+                        One Mask Rule Most New Yorkers Ignore
+                    </h3>
+                </div>
+
+                <div class="editor-float editor-grid">
+                    <img src="https://static01.nyt.com/images/2020/08/20/realestate/20Hunt-Choi8/20Hunt-Choi8-square640-v3.jpg?quality=75&auto=webp&disable=upscale&width=350" alt="">
+                    <h3>
+                        A Couple Look for Their First Purchase in the ‘Heart of Brooklyn.’ But Where Is That?
+                    </h3>
+                </div>
+
+            </aside>
+
             <p class="paragraph">Inflation has been the workhorse of cosmology for 35 years, though many, including Dr. Guth, wondered whether it could ever be proved.</p>
 
             <p class="paragraph">If corroborated, Dr. Kovac’s work will stand as a landmark in science comparable to the recent discovery of dark energy pushing the universe apart, or of the Big Bang itself. It would open vast realms of time and space and energy to science
@@ -444,10 +472,10 @@
 
                 </section>
 
-                <section>
-                    <h4>Editor's Picks</h4>
+                <section class="article-section">
+                    <h3>Editor's Picks</h3>
 
-                    <div>
+                    <div class="recommended-grid">
                         <div class="figure-style">
                             <figure class="recommended-fig">
                                 <img src="images/17mask1-threeByTwoSmallAt2X-v3.jpg" alt="three ByTwo Small">
@@ -540,14 +568,20 @@
 
     </main>
 
-    <footer>
-        <img src="#" alt="The New York Times">
+    <footer class="divisor container-footer">
+        <div class="d-flex center-flex">
+            <div class="header-logo n-padding">
+                <img src="images/1200px-The_New_York_Times_Logo.svg.png" alt="New York Times Logo">
+            </div>
 
-        <div>
-            <div>
-                <h3>News</h3>
+            <a href="#" class="main-blue-color">Go to Home Page</a>
+        </div>
+
+        <div class="d-flex center-footer">
+            <div class="nav-titles">
+                <h3>NEWS</h3>
                 <nav>
-                    <ul>
+                    <ul class="list-style list-font">
                         <li><a href="#">Home Page</a></li>
                         <li><a href="#">World</a></li>
                         <li><a href="#">U.S.</a></li>
@@ -565,23 +599,25 @@
                 </nav>
             </div>
 
-            <div>
+            <div class="nav-titles">
                 <h3>OPINION</h3>
-                <nav>
-                    <a href="#">Today's Opinion</a>
-                    <a href="#">Op-Ed Columnists</a>
-                    <a href="#">Editorials</a>
-                    <a href="#">Op-Ed Contributors</a>
-                    <a href="#">Letters</a>
-                    <a href="#">Sunday Review</a>
-                    <a href="#">Video: Opinion</a>
-                </nav>
+                <ul class="list-style list-font">
+                    <nav>
+                        <li><a href="#">Today's Opinion</a></li>
+                        <li><a href="#">Op-Ed Columnists</a></li>
+                        <li><a href="#">Editorials</a></li>
+                        <li><a href="#">Op-Ed Contributors</a></li>
+                        <li><a href="#">Letters</a></li>
+                        <li><a href="#">Sunday Review</a></li>
+                        <li><a href="#">Video: Opinion</a></li>
+                    </nav>
+                </ul>
             </div>
 
-            <div>
+            <div class="nav-titles">
                 <h3>ARTS</h3>
                 <nav>
-                    <ul>
+                    <ul class="list-style list-font">
                         <li><a href="#">Today's Arts</a></li>
                         <li><a href="#">Art & Design</a></li>
                         <li><a href="#">Books</a></li>
@@ -595,10 +631,11 @@
                     </ul>
                 </nav>
             </div>
-            <div>
+
+            <div class="nav-titles">
                 <h3>LIVING</h3>
                 <nav>
-                    <ul>
+                    <ul class="list-style list-font">
                         <li><a href="#">At Home</a></li>
                         <li><a href="#">Automobiles</a></li>
                         <li><a href="#">Games</a></li>
@@ -618,95 +655,115 @@
                     </ul>
                 </nav>
             </div>
-            <div>
+
+            <div class="nav-titles">
                 <h3>MORE</h3>
+
                 <nav>
-                    <li><a href="#">Reader Center</a></li>
-                    <li><a href="#">Wirecutter</a></li>
-                    <li><a href="#">Live Events</a></li>
-                    <li><a href="#">The Learning Network</a></li>
-                    <li><a href="#">Tools & Services</a></li>
-                    <li><a href="#">Multimedia</a></li>
-                    <li><a href="#">Photography</a></li>
-                    <li><a href="#">Video</a></li>
-                    <li><a href="#">Newsletters</a></li>
-                    <li><a href="#">TimesMachine</a></li>
-                    <li><a href="#">NYT Store</a></li>
-                    <li><a href="#">Times Journeys</a></li>
-                    <li><a href="#">Manage mY Account</a></li>
+                    <ul class="list-style list-font">
+                        <li><a href="#">Reader Center</a></li>
+                        <li><a href="#">Wirecutter</a></li>
+                        <li><a href="#">Live Events</a></li>
+                        <li><a href="#">The Learning Network</a></li>
+                        <li><a href="#">Tools & Services</a></li>
+                        <li><a href="#">Multimedia</a></li>
+                        <li><a href="#">Photography</a></li>
+                        <li><a href="#">Video</a></li>
+                        <li><a href="#">Newsletters</a></li>
+                        <li><a href="#">TimesMachine</a></li>
+                        <li><a href="#">NYT Store</a></li>
+                        <li><a href="#">Times Journeys</a></li>
+                        <li><a href="#">Manage mY Account</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+            <div class="nav-titles nav-border">
+                <h3>SUBSCRIBE</h3>
+                <nav>
+                    <ul class="list-style list-font">
+                        <li>
+                            <div>
+                                <i class="fas fa-truck"></i>
+                                <a href="#" class="bold-text"> Home Delivery</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div>
+                                <i class="fas fa-subscript"></i>
+                                <a href="#" class="bold-text">Digital SUbscriptions</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div>
+                                <i class="fas fa-chess-board" class="bold-text"></i>
+                                <a href="#" class="bold-text">Games</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div>
+                                <i class="fas fa-utensils"></i>
+                                <a href="#" class="bold-text">Cooking</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+
+
+                <nav>
+                    <ul class="list-style list-font">
+                        <li><a href="#" class="small-nav">Email Newsletters</a></li>
+                        <li><a href="#" class="small-nav">Corporate Subscriptions</a></li>
+                        <li><a href="#" class="small-nav">Education Rate</a></li>
+
+                        <hr>
+
+                        <li><a href="#" class="small-nav">Mobile Applications</a></li>
+                        <li><a href="#" class="small-nav">Replica Edition</a></li>
+                        <li><a href="#" class="small-nav">Español</a></li>
+                        <li><a href="#" class="small-nav">中文网</a></li>
+                    </ul>
                 </nav>
             </div>
         </div>
 
-        <aside>
-            <h3>SUBSCRIBE</h3>
-            <nav>
-                <ul>
-                    <li>
-                        <div>
-                            <i class="fas fa-truck"></i>
-                            <a href="#"> Home Delivery</a>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div>
-                            <i class="fas fa-subscript"></i>
-                            <a href="#">Digital SUbscriptions</a>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div>
-                            <i class="fas fa-chess-board"></i>
-                            <a href="#">Games</a>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div>
-                            <i class="fas fa-utensils"></i>
-                            <a href="#">Cooking</a>
-                        </div>
-                    </li>
-                </ul>
-            </nav>
-
-            <nav>
-                <ul>
-                    <li><a href="#">Email Newsletters</a></li>
-                    <li><a href="#">Corporate Subscriptions</a></li>
-                    <li><a href="#">Education Rate</a></li>
-
-                    <hr>
-
-                    <li><a href="#">Mobile Applications</a></li>
-                    <li><a href="#">Replica Edition</a></li>
-                    <li><a href="#">Español</a></li>
-                    <li><a href="#">中文网</a></li>
-                </ul>
-            </nav>
-        </aside>
-
         <hr>
 
-        <nav>
-            <ul>
-                <li><a href="#">&#169; 2020 The New York Times Company</a></li>
-                <li><a href="#">NYTCo</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Work with us</a></li>
-                <li><a href="#">Advertise</a></li>
-                <li><a href="#">T Brand Studio</a></li>
-                <li><a href="#">Your Ad Choices</a></li>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Terms of Service</a></li>
-                <li><a href="#">Terms of Sale</a></li>
-                <li><a href="#">Site Map</a></li>
-                <li><a href="#">Help</a></li>
-                <li><a href="#">Subscriptions</a></li>
-            </ul>
+        <nav class="d-flex footer-nav-flex">
+
+            <a href="#" class="footer-nav">&#169; 2020 The New York Times Company</a>
+            <a href="#" class="footer-nav">NYTCo</a>
+            <a href="#" class="footer-nav">Contact Us</a>
+            <a href="#" class="footer-nav">Work with us</a>
+            <a href="#" class="footer-nav">Advertise</a>
+            <a href="#" class="footer-nav">T Brand Studio</a>
+            <a href="#" class="footer-nav">Your Ad Choices</a>
+            <a href="#" class="footer-nav">Privacy</a>
+            <a href="#" class="footer-nav">Terms of Service</a>
+            <a href="#" class="footer-nav">Terms of Sale</a>
+            <a href="#" class="footer-nav">Site Map</a>
+            <a href="#" class="footer-nav">Help</a>
+            <a href="#" class="footer-nav">Subscriptions</a>
+
         </nav>
+
+        <div class="footer-fixed">
+            <div class="footer-end">
+                <div>
+                    <h2>Access more of The Times by creating a free account or logging in</h2>
+                </div>
+
+                <div class="expand-btn d-flex center-flex">
+                    <p>Expand</p>
+
+                    <i class=" fas fa-chevron-up "></i>
+                </div>
+            </div>
+        </div>
     </footer>
 
 </body>

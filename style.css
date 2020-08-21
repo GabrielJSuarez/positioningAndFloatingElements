@@ -10,6 +10,7 @@ html {
 
 body {
     font-family: 'Libre Franklin', sans-serif;
+    margin-bottom: 10rem;
 }
 
 *,
@@ -86,6 +87,10 @@ figcaption {
 .list-style {
     list-style: none;
     padding-left: 0;
+}
+
+.bold-text {
+    font-weight: bold;
 }
 
 
@@ -227,6 +232,52 @@ main {
 }
 
 
+/*---------*/
+
+
+/*Aside editor's picks*/
+
+.editor-pick-aside {
+    width: 25rem;
+    position: absolute;
+    left: 125rem;
+}
+
+.editor-float {
+    margin-bottom: 2rem;
+}
+
+.editor-float img {
+    width: 90%;
+}
+
+.editor-float h3 {
+    margin: auto 0;
+    width: 10rem;
+}
+
+.editor-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+
+/*
+.editor-pick-aside {
+    
+    width: 25rem;
+    
+}
+
+
+.editor-float img {
+    float: left;
+}
+
+*/
+
+
 /*-----------------------*/
 
 
@@ -328,9 +379,13 @@ main {
 
 /* Recommended section */
 
-.container-articles {
+.container-articles,
+.container-footer {
     width: 95%;
     margin: 8rem auto;
+}
+
+.container-articles {
     justify-content: space-between;
 }
 
@@ -339,7 +394,7 @@ main {
 }
 
 .d-flex .editor-pick {
-    flex-basis: calc(25% - 2rem);
+    flex-basis: 26%;
 }
 
 .article-section,
@@ -388,4 +443,99 @@ main {
     font-weight: bold;
     display: inline-block;
     padding: 1rem 0;
+}
+
+
+/* FOOTER */
+
+.divisor::before {
+    background-color: #fff;
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 2px solid #e2e2e2;
+    content: '';
+    display: block;
+    height: 1px;
+    margin-top: 0;
+}
+
+.n-padding {
+    padding: 0;
+}
+
+a.main-blue-color {
+    font-size: 1.4rem;
+}
+
+.nav-titles h3,
+.list-font {
+    font-size: 1.8rem;
+}
+
+.center-footer {
+    justify-content: space-between;
+}
+
+.list-font li {
+    padding: 0.5rem 0;
+}
+
+.list-font li:hover {
+    text-decoration: underline;
+}
+
+.small-nav {
+    font-size: 1.2rem;
+}
+
+a.bold-text {
+    padding-left: 0.5rem;
+}
+
+.nav-border {
+    border-left: 1px solid rgb(226, 226, 226);
+    padding-left: 2rem;
+}
+
+.footer-nav-flex {
+    justify-content: space-around;
+}
+
+a.footer-nav {
+    font-size: 1.5rem;
+    color: #666;
+}
+
+a.footer-nav:hover {
+    text-decoration: underline;
+}
+
+.footer-fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #666;
+    width: 100%;
+    padding: 1.5rem;
+    cursor: pointer;
+}
+
+.footer-end {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.footer-end h2 {
+    font-size: 1.8rem;
+}
+
+.expand-btn {
+    margin-left: 10rem;
+    position: absolute;
+    right: 0;
+    justify-content: space-between;
+    width: 10rem;
+    font-size: 1.8rem;
 }
