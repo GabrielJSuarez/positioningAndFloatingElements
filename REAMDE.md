@@ -6,7 +6,7 @@
 
 https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0
 
-![Alt text](https://github.com/GabrielJSuarez/YoutubeVideoPage/blob/master/screenshot.png?raw=true "Screenshot")
+![Alt text](https://github.com/GabrielJSuarez/positioningAndFloatingElements/blob/Article-feature-branch/images/page-screeshot-nytimesclone.png?raw=true "Screenshot")
 
 ## Built With
 
