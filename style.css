@@ -43,6 +43,13 @@ figure {
     margin: 0;
 }
 
+figcaption {
+    color: #666;
+    padding: 1.5rem 0;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
 .container {
     margin: 0 auto;
 }
@@ -147,11 +154,7 @@ main {
 /* Figure/Figcaption */
 
 .main-container figcaption {
-    color: #666;
     width: 80rem;
-    padding: 1.5rem 0;
-    font-size: 1.6rem;
-    line-height: 1.5;
 }
 
 .fig-span {
@@ -283,14 +286,36 @@ main {
 }
 
 .youtube-figure figcaption {
-    color: #666;
     width: 50rem;
-    padding: 1.5rem 0;
-    font-size: 1.6rem;
-    line-height: 1.5;
 }
 
 .youtube-figure figcaption span {
     color: #888;
     font-size: 1.4rem;
+}
+
+.color-caption {
+    color: #666;
+}
+
+.section-footer {
+    font-size: 1.4rem;
+    line-height: 1.4;
+    color: #666;
+    margin-bottom: 3rem;
+}
+
+.section-footer a {
+    text-decoration: underline;
+    color: #666;
+}
+
+.section-footer a:hover {
+    text-decoration: none;
+}
+
+.btn-size button {
+    width: 40rem;
+    font-size: 1.6rem;
+    text-transform: uppercase;
 }
