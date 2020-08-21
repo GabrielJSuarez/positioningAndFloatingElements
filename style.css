@@ -89,6 +89,10 @@ figcaption {
     padding-left: 0;
 }
 
+.list-style li {
+    border-top: 1px solid #666666;
+}
+
 .bold-text {
     font-weight: bold;
 }
