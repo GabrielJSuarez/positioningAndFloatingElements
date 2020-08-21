@@ -14,7 +14,7 @@ https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-but
 
 ## Live Demo
 
-[Live Demo Link](https://gabrieljsuarez.github.io/YoutubeVideoPage/)
+[Live Demo Link]( https://gabrieljsuarez.github.io/positioningAndFloatingElements/)
 
 
 ## Getting Started
