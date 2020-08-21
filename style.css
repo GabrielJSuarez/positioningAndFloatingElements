@@ -14,8 +14,8 @@ body {
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
     box-sizing: inherit;
 }
 
@@ -90,7 +90,7 @@ figcaption {
 }
 
 .list-style li {
-    border-top: 1px solid #666666;
+    border-top: 1px solid #666;
 }
 
 .bold-text {
