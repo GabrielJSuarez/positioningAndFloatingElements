@@ -226,3 +226,14 @@ main {
 .figure-grid {
     margin: 0;
 }
+.figure-grid figcaption{
+    padding-top: 0;
+    width: 100%;
+}
+
+
+.picture-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
