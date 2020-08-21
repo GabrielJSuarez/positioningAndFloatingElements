@@ -83,6 +83,11 @@ figcaption {
     color: rgb(50, 104, 145);
 }
 
+.list-style {
+    list-style: none;
+    padding-left: 0;
+}
+
 
 /*----------------------------------------------*/
 
@@ -321,14 +326,66 @@ main {
 }
 
 
-.more-section-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1em;
-    grid-auto-columns: auto;
-  
+/* Recommended section */
+
+.container-articles {
+    width: 95%;
+    margin: 8rem auto;
+    justify-content: space-between;
 }
 
-.more-section-grid figure{
-    grid-column: 1/3;
+.d-flex .recommended-articles {
+    flex-basis: 70%;
+}
+
+.d-flex .editor-pick {
+    flex-basis: calc(25% - 2rem);
+}
+
+.article-section,
+.editor-pick {
+    border-top: 1px solid #000;
+    display: block;
+}
+
+.article-section h3,
+.editor-pick h3 {
+    font-size: 1.6rem;
+    padding: 0.5rem 0;
+}
+
+.recommended-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.recommended-fig figcaption {
+    margin: 0;
+    padding: 0.2rem 0;
+    font-size: 1rem;
+    text-align: right;
+}
+
+.figure-style h2 {
+    font-family: 'Domine', serif;
+    font-size: 1.8rem;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.figure-style p {
+    font-size: 1.2rem;
+    color: #999;
+}
+
+.editor-pick .list-style {
+    font-family: 'Domine', serif;
+    font-size: 2rem;
+}
+
+.editor-pick .list-style li {
+    font-weight: bold;
+    display: inline-block;
+    padding: 1rem 0;
 }
