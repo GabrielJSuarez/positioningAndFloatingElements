@@ -446,7 +446,7 @@ main {
 
 .figure-style h2 {
     font-family: 'Domine', serif;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     line-height: 1.4;
     margin: 0;
 }
@@ -458,7 +458,7 @@ main {
 
 .editor-pick .list-style {
     font-family: 'Domine', serif;
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 .editor-pick .list-style li {
@@ -490,7 +490,7 @@ a.main-blue-color {
 
 .nav-titles h3,
 .list-font {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
 }
 
 .center-footer {
@@ -523,7 +523,7 @@ a.bold-text {
 }
 
 a.footer-nav {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     color: #666;
 }
 
@@ -550,7 +550,7 @@ a.footer-nav:hover {
 }
 
 .footer-end h2 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 
 .expand-btn {
@@ -559,5 +559,5 @@ a.footer-nav:hover {
     right: 0;
     justify-content: space-between;
     width: 10rem;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
