@@ -43,6 +43,11 @@ h1 {
     margin: 0 auto;
 }
 
+.main-container {
+    margin: 0 auto;
+    width: 120rem;
+}
+
 .sub-container {
     margin: 0 auto;
     width: 80rem;
@@ -55,6 +60,16 @@ h1 {
 .center-flex {
     justify-content: space-between;
     align-items: center;
+}
+
+.paragraph {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-family: 'Domine', serif;
+}
+
+.main-blue-color {
+    color: rgb(50, 104, 145);
 }
 
 
@@ -126,12 +141,7 @@ main {
 
 /* Figure/Figcaption */
 
-.main-picture {
-    margin: 0 auto;
-    width: 120rem;
-}
-
-.main-picture figcaption {
+.main-container figcaption {
     color: #666;
     width: 80rem;
     padding: 1.5rem 0;
@@ -150,7 +160,7 @@ main {
 /* Written Content */
 
 .text-title h3 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .text-title h3 a {
@@ -163,11 +173,11 @@ main {
 }
 
 .date-title {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
 }
 
 .text-navigation a {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-right: 2rem;
     padding: 0.5rem 0.8rem;
     background-color: #eee;
@@ -177,4 +187,42 @@ main {
 .text-navigation a:hover {
     background-color: #fff;
     border: 1px solid #888;
+}
+
+
+/* Subscribe section */
+
+.subscribe-section hr {
+    width: 10rem;
+}
+
+.subscribe-content {
+    width: 30rem;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.subscribe-content h3 {
+    margin-bottom: 0.5rem;
+}
+
+.subscribe-content a p {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+
+/*-----------------------*/
+
+
+/* Main figure content with grid */
+
+.main-container h2 {
+    margin-bottom: 0;
+}
+
+.figure-grid {
+    margin: 0;
 }
