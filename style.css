@@ -319,3 +319,16 @@ main {
     font-size: 1.6rem;
     text-transform: uppercase;
 }
+
+
+.more-section-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    grid-auto-columns: auto;
+  
+}
+
+.more-section-grid figure{
+    grid-column: 1/3;
+}
