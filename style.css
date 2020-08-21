@@ -321,19 +321,19 @@ main {
 .picture-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20rem 2rem;
+    gap: 12rem 2rem;
     position: relative;
-    top: -55rem;
+    top: -45rem;
 }
 
 .grid-content p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 1.6;
     text-align: left;
 }
 
 .grid-last {
-    margin-top: -50rem;
+    margin-top: -45rem;
 }
 
 .grid-last hr {
