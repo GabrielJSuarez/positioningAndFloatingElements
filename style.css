@@ -60,7 +60,7 @@ figcaption {
 
 .main-container {
     margin: 0 auto;
-    width: 120rem;
+    width: 100rem;
 }
 
 .sub-container {
@@ -92,9 +92,24 @@ figcaption {
     padding-left: 0;
 }
 
+.hr-span {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+
+/*
 .list-style li {
     border-top: 1px solid #666;
 }
+*/
 
 .bold-text {
     font-weight: bold;
