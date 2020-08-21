@@ -39,6 +39,10 @@ h1 {
     line-height: 1.4;
 }
 
+figure {
+    margin: 0;
+}
+
 .container {
     margin: 0 auto;
 }
@@ -81,6 +85,7 @@ h1 {
 header {
     padding: 0.5rem 1.5rem;
     border-bottom: 1px solid grey;
+    z-index: 100;
 }
 
 .header-flex {
@@ -226,14 +231,66 @@ main {
 .figure-grid {
     margin: 0;
 }
-.figure-grid figcaption{
+
+.figure-grid figcaption {
     padding-top: 0;
     width: 100%;
 }
 
-
-.picture-grid{
+.picture-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 20rem 2rem;
+    position: relative;
+    top: -55rem;
 }
 
+.grid-content p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.grid-last {
+    margin-top: -50rem;
+}
+
+.grid-last hr {
+    width: 8rem;
+    margin: 0 0 auto 0;
+}
+
+.grid-last p {
+    font-size: 1.7rem;
+    color: #333;
+}
+
+
+/*---------------*/
+
+
+/* Video section */
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.video-container iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.youtube-figure figcaption {
+    color: #666;
+    width: 50rem;
+    padding: 1.5rem 0;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+.youtube-figure figcaption span {
+    color: #888;
+    font-size: 1.4rem;
+}
