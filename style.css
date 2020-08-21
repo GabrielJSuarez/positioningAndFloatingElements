@@ -52,6 +52,11 @@ h1 {
     display: flex;
 }
 
+.center-flex {
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 /*----------------------------------------------*/
 
@@ -64,8 +69,6 @@ header {
 }
 
 .header-flex {
-    justify-content: space-between;
-    align-items: center;
     overflow: hidden;
     background-color: #fff;
     position: fixed;
@@ -142,3 +145,36 @@ main {
 
 
 /*--------------------------------------*/
+
+
+/* Written Content */
+
+.text-title h3 {
+    font-size: 1.5rem;
+}
+
+.text-title h3 a {
+    text-decoration: underline;
+    text-decoration-color: #666;
+}
+
+.text-title h3 a:hover {
+    text-decoration: none;
+}
+
+.date-title {
+    font-size: 1.3rem;
+}
+
+.text-navigation a {
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    padding: 0.5rem 0.8rem;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.text-navigation a:hover {
+    background-color: #fff;
+    border: 1px solid #888;
+}
