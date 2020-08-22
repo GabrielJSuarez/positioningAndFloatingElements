@@ -1,0 +1,561 @@
+/* stylelint-disable */
+
+
+/* STYLE SHEET*/
+
+
+/* GLOBAL CLASSES*/
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    margin-bottom: 15rem;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-family: 'Domine', serif;
+    font-size: 4.5rem;
+    font-style: italic;
+    font-weight: bold;
+    width: 60rem;
+    margin: 10rem auto 5rem;
+    padding: 0 0.5rem;
+    line-height: 1.4;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    color: #666;
+    padding: 1.5rem 0;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.main-container {
+    margin: 0 auto;
+    width: 100rem;
+}
+
+.sub-container {
+    margin: 0 auto;
+    width: 70rem;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.center-flex {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.paragraph {
+    font-size: 2rem;
+    line-height: 1.5;
+    font-family: 'Domine', serif;
+}
+
+.main-blue-color {
+    color: rgb(50, 104, 145);
+}
+
+.list-style {
+    list-style: none;
+    padding-left: 0;
+}
+
+.top-border-list,
+.top-border-list li {
+    border-top: 1px solid #666;
+}
+
+.hr-span {
+    width: 100%;
+    height: 1px;
+}
+
+
+/*
+.list-style li {
+    border-top: 1px solid #666;
+}
+*/
+
+.bold-text {
+    font-weight: bold;
+}
+
+
+/*----------------------------------------------*/
+
+
+/* HEADER */
+
+header {
+    padding: 0.5rem 1.5rem;
+    border-bottom: 1px solid grey;
+    z-index: 100;
+}
+
+.header-flex {
+    overflow: hidden;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 5rem;
+}
+
+.left-header i {
+    margin: 0.5rem;
+    padding-right: 3rem;
+    font-size: 1.7rem;
+}
+
+.left-header a {
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.header-logo {
+    width: 18%;
+    padding: 1rem;
+}
+
+.btn-header button {
+    font-size: 1.3rem;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    color: #fff;
+    margin-right: 0.5rem;
+    padding: 1.6rem 1.2rem 0.8rem;
+    background-color: rgb(86, 123, 149);
+    border: 0.1rem solid rgb(50, 104, 145);
+    border-radius: 0.3rem;
+}
+
+.btn-header button:hover {
+    background-color: rgb(50, 104, 145);
+}
+
+.btn-header button:last-child {
+    margin-right: 0;
+}
+
+
+/*----------------------------------------------*/
+
+
+/* MAIN CONTENT */
+
+main {
+    margin-top: 5rem;
+}
+
+
+/* Figure/Figcaption */
+
+.main-container figcaption {
+    width: 80rem;
+}
+
+.fig-span {
+    color: #888;
+}
+
+
+/*--------------------------------------*/
+
+
+/* Written Content */
+
+.text-title h3 {
+    font-size: 1.8rem;
+}
+
+.text-title h3 a {
+    text-decoration: underline;
+    text-decoration-color: #666;
+}
+
+.text-title h3 a:hover {
+    text-decoration: none;
+}
+
+.date-title {
+    font-size: 1.8rem;
+}
+
+.text-navigation a {
+    font-size: 1.8rem;
+    margin-right: 2rem;
+    padding: 0.5rem 0.8rem;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.text-navigation a:hover {
+    background-color: #fff;
+    border: 1px solid #888;
+}
+
+
+/* Subscribe section */
+
+.subscribe-section hr {
+    width: 10rem;
+}
+
+.subscribe-content {
+    width: 30rem;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.subscribe-content h3 {
+    margin-bottom: 0.5rem;
+}
+
+.subscribe-content a p {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+
+/*---------*/
+
+
+/*Aside editor's picks*/
+
+.editor-pick-aside {
+    width: 25rem;
+    position: absolute;
+    left: 120rem;
+}
+
+.editor-float {
+    margin-bottom: 2rem;
+}
+
+.editor-float img {
+    width: 90%;
+}
+
+.editor-float h3 {
+    margin: auto 0;
+    width: 10rem;
+}
+
+.editor-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+
+/*
+.editor-pick-aside {
+    
+    width: 25rem;
+    
+}
+
+
+.editor-float img {
+    float: left;
+}
+
+*/
+
+
+/*-----------------------*/
+
+
+/* Main figure content with grid */
+
+.main-container h2 {
+    margin-bottom: 0;
+}
+
+.figure-grid {
+    margin: 0;
+}
+
+.figure-grid figcaption {
+    padding-top: 0;
+    width: 100%;
+}
+
+.picture-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12rem 2rem;
+    position: relative;
+    top: -45rem;
+}
+
+.grid-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.grid-last {
+    margin-top: -45rem;
+}
+
+.grid-last hr {
+    width: 8rem;
+    margin: 0 0 auto 0;
+}
+
+.grid-last p {
+    font-size: 1.7rem;
+    color: #333;
+}
+
+
+/*---------------*/
+
+
+/* Video section */
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.video-container iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.youtube-figure figcaption {
+    width: 50rem;
+}
+
+.youtube-figure figcaption span {
+    color: #888;
+    font-size: 1.4rem;
+}
+
+.color-caption {
+    color: #666;
+}
+
+.section-footer {
+    font-size: 1.4rem;
+    line-height: 1.4;
+    color: #666;
+    margin-bottom: 3rem;
+}
+
+.section-footer a {
+    text-decoration: underline;
+    color: #666;
+}
+
+.section-footer a:hover {
+    text-decoration: none;
+}
+
+.btn-size button {
+    width: 40rem;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+
+/* Recommended section */
+
+.container-articles,
+.container-footer {
+    width: 95%;
+    margin: 8rem auto;
+}
+
+.container-articles {
+    justify-content: space-between;
+}
+
+.d-flex .recommended-articles {
+    flex-basis: 70%;
+}
+
+.d-flex .editor-pick {
+    flex-basis: 26%;
+}
+
+.article-section,
+.editor-pick {
+    border-top: 1px solid #000;
+    display: block;
+}
+
+.article-section h3,
+.editor-pick h3 {
+    font-size: 1.6rem;
+    padding: 0.5rem 0;
+}
+
+.recommended-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.recommended-fig figcaption {
+    margin: 0;
+    padding: 0.2rem 0;
+    font-size: 1rem;
+    text-align: right;
+}
+
+.figure-style h2 {
+    font-family: 'Domine', serif;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.figure-style p {
+    font-size: 1.2rem;
+    color: #999;
+}
+
+.editor-pick .list-style {
+    font-family: 'Domine', serif;
+    font-size: 1.6rem;
+}
+
+.editor-pick .list-style li {
+    font-weight: bold;
+    display: inline-block;
+    padding: 1rem 0;
+}
+
+
+/* FOOTER */
+
+.divisor::before {
+    background-color: #fff;
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 2px solid #e2e2e2;
+    content: '';
+    display: block;
+    height: 1px;
+    margin-top: 0;
+}
+
+.n-padding {
+    padding: 0;
+}
+
+a.main-blue-color {
+    font-size: 1.4rem;
+}
+
+.nav-titles h3,
+.list-font {
+    font-size: 1.2rem;
+}
+
+.center-footer {
+    justify-content: space-between;
+}
+
+.list-font li {
+    padding: 0.5rem 0;
+}
+
+.list-font li:hover {
+    text-decoration: underline;
+}
+
+.small-nav {
+    font-size: 1.2rem;
+}
+
+a.bold-text {
+    padding-left: 0.5rem;
+}
+
+.nav-border {
+    border-left: 1px solid rgb(226, 226, 226);
+    padding-left: 2rem;
+}
+
+.footer-nav-flex {
+    justify-content: space-around;
+}
+
+a.footer-nav {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+a.footer-nav:hover {
+    text-decoration: underline;
+}
+
+.footer-fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #666;
+    width: 100%;
+    padding: 1.5rem;
+    cursor: pointer;
+}
+
+.footer-end {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.footer-end h2 {
+    font-size: 1.6rem;
+}
+
+.expand-btn {
+    margin-left: 10rem;
+    position: absolute;
+    right: 0;
+    justify-content: space-between;
+    width: 10rem;
+    font-size: 1.6rem;
+}
